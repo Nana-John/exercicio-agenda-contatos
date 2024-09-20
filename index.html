@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Agenda de Contatos</title>
+    <link rel="stylesheet" href="main.css"> 
+</head>
+<body>
+    <h1>Minha Agenda</h1>
+
+    <form id="contatoForm">
+        <label for="nome">Nome:</label>
+        <input type="text" id="nome" name="nome" required><br><br>
+
+        <label for="telefone">Telefone:</label>
+        <input type="tel" id="telefone" name="telefone" required><br><br>
+
+        <button type="submit">Cadastrar</button>
+    </form>
+
+    <h2>Contatos</h2>
+    <table id="tabelaContatos">
+        <thead>
+            <tr>
+                <th><span class="icon">👤</span> Nome</th>
+                <th><span class="icon">📞</span> Telefone</th>
+            </tr>
+        </thead>
+        <tbody>
+        </tbody>
+    </table>
+
+    <script src="script.js"></script>
+</body>
+</html>
